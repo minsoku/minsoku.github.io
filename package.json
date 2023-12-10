@@ -1,6 +1,6 @@
 {
   "name": "minsoku.github.io",
-  "private": true,
+  "private": false,
   "description": "minsoku blog",
   "version": "0.1.0",
   "author": "<minsoku03@gmail.com>",
