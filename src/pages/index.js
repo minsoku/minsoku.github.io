@@ -16,7 +16,7 @@ function HomePage({ data }) {
 
   return (
     <Layout>
-      <Seo title="Home" />
+      <Seo title="main" />
       <PostTabs
         posts={posts}
         onChange={onTabIndexChange}
