@@ -20,7 +20,6 @@ const Layout = ({ children }) => {
     }
   `);
   const { title } = data.site.siteMetadata;
-  document.documentElement.setAttribute('data-theme', 'dark');
 
   return (
     <div className="page-wrapper">
