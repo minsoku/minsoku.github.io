@@ -1,10 +1,10 @@
 ---
 emoji: ''
-title: first
+title: test
 date: '2023-12-11 01:00:00'
-author: d
-tags: first 
-categories: 블로그 featured first
+author: minsoku
+tags: test 
+categories: js ts
 ---
 
 ## first

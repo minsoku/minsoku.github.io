@@ -9,9 +9,10 @@ import PostContent from '../components/post-content';
 
 function BlogTemplate({ data }) {
   const curPost = new Post(data.cur);
+
   const prevPost = data.prev && new Post(data.prev);
   const nextPost = data.next && new Post(data.next);
-
+  
   return (
     <Layout>
       <Seo title={curPost?.title} description={curPost?.excerpt} />
