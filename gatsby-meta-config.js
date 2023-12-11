@@ -1,9 +1,9 @@
 module.exports = {
-    title: `minlog`,
-    description: `description`,
+    title: `MINLOG`,
+    description: `Minsoku no Development Diary`,
     language: `ko`,
     siteUrl: "https://github.com/minsoku",
-    ogImage: ``,
+    ogImage: `blog.jpeg`,
     comments: {
       utterances: {
         repo: ``,
@@ -11,11 +11,11 @@ module.exports = {
     },
     ga: '0',
     author: {
-      name: ``,
+      name: `minsoku`,
       bio: {
         role: ``,
-        description: `description`,
-        thumbnail: '',
+        description: `Minsoku no Development Diary`,
+        thumbnail: 'blog.jpeg',
       },
       social: {
         github: ``,
@@ -50,8 +50,8 @@ module.exports = {
   
       projects: [
         {
-          title: '',
-          description: 'description',
+          title: 'MINLOG',
+          description: 'Minsoku no Development Diary',
           techStack: [''],
           thumbnailUrl: '',
           links: {
@@ -63,10 +63,10 @@ module.exports = {
           },
         },
         {
-          title: '',
-          description: 'description',
+          title: 'MINLOG',
+          description: 'Minsoku no Development Diary',
           techStack: '',
-          thumbnailUrl: '',
+          thumbnailUrl: 'blog.jpeg',
           links: {
             post: '',
             github: '',

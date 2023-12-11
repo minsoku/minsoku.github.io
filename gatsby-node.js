@@ -15,41 +15,9 @@ const createBlogPages = ({ createPage, results }) => {
       path: node.fields.slug,
       component: blogPostTemplate,
       context: {
-        // additional data can be passed via context
         slug: node.fields.slug,
         nextSlug: next?.fields.slug ?? '',
         prevSlug: previous?.fields.slug ?? '',
-      },
-    });
-  });
-};
-
-const createPostsPages = ({ createPage, results }) => {
-  const categoryTemplate = require.resolve(`./src/templates/category-template.js`);
-  const categorySet = new Set(['All']);
-  const { edges } = results.data.allMarkdownRemark;
-
-  edges.forEach(({ node }) => {
-    const postCategories = node.frontmatter.categories.split(' ');
-    postCategories.forEach((category) => categorySet.add(category));
-  });
-
-  const categories = [...categorySet];
-
-  createPage({
-    path: `/posts`,
-    component: categoryTemplate,
-    context: { currentCategory: 'All', edges, categories },
-  });
-
-  categories.forEach((currentCategory) => {
-    createPage({
-      path: `/posts/${currentCategory}`,
-      component: categoryTemplate,
-      context: {
-        currentCategory,
-        categories,
-        edges: edges.filter(({ node }) => node.frontmatter.categories.includes(currentCategory)),
       },
     });
   });
@@ -96,5 +64,4 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   }
 
   createBlogPages({ createPage, results });
-  createPostsPages({ createPage, results });
 };

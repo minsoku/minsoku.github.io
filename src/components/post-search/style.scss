@@ -3,13 +3,13 @@
 
 
 .search-input-wrapper {
-    display: none;
+    display: flex;
     align-items: center;
     width: 180px;
-    margin-top: 3px;
+    margin: 3px 0 0 10px;
 
     @include md {
-        display: flex;
+        
     }
 }
 

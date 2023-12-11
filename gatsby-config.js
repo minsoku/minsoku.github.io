@@ -58,7 +58,7 @@ module.exports = {
         lang: `en`,
         display: `standalone`,
         start_url: `/`,
-        icon: `static/favicon.png`,
+        icon: `assets/blog.jpeg`,
       },
     },
     {
@@ -122,7 +122,7 @@ module.exports = {
     },
     `gatsby-theme-material-ui`,
     `gatsby-transformer-sharp`,
-    // `gatsby-plugin-advanced-sitemap`,
+    `gatsby-plugin-advanced-sitemap`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-image`,
     `gatsby-plugin-offline`,

@@ -8,7 +8,6 @@ import PostTabs from '../components/post-tabs';
 
 function HomePage({ data }) {
   const posts = data.allMarkdownRemark.edges.map(({ node }) => new Post(node));
-  const { author, language } = data.site.siteMetadata;
   const categories = ['All', ...getUniqueCategories(posts)];
   const featuredTabIndex = categories.findIndex((category) => category === 'featured');
   const [tabIndex, setTabIndex] = useState(featuredTabIndex === -1 ? 0 : featuredTabIndex);
@@ -22,7 +21,6 @@ function HomePage({ data }) {
         onChange={onTabIndexChange}
         tabs={categories}
         tabIndex={tabIndex}
-        showMoreButton
       />
     </Layout>
   );
