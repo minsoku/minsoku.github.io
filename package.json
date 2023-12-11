@@ -1,4 +1,5 @@
 {
+  "homepage": "https://minsoku.github.io/",
   "name": "minsoku.github.io",
   "private": false,
   "description": "minsoku blog",
@@ -45,7 +46,7 @@
   "scripts": {
     "build": "gatsby clean && gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "deploy": "gatsby clean && gatsby build && gh-pages -d public",
     "start": "npm run develop",
     "serve": "gatsby serve",

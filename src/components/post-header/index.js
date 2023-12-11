@@ -13,7 +13,6 @@ function PostHeader({ post }) {
           ))}
         </div>
       </div>
-
       <h1 className="title">{post.title}</h1>
     </header>
   );

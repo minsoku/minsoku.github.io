@@ -1,2 +1,1 @@
-# 개발 블로그
-## README 내용은 나중에 수정예정
+# minsoku development blog
