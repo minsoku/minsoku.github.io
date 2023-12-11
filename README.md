@@ -1,1 +1,1 @@
-# 아
+# minsoku development blog
