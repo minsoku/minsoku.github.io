@@ -1,1 +1,0 @@
-# minsoku development blog
