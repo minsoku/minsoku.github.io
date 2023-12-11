@@ -58,7 +58,7 @@ module.exports = {
         lang: `en`,
         display: `standalone`,
         start_url: `/`,
-        icon: `assets/blog.jpeg`,
+        icon: `static/blog.jpeg`,
       },
     },
     {
