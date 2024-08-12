@@ -1,1 +1,1 @@
-{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"Nestjs 소개 및 라이프사이클","categories":"nestjs"},"fields":{"slug":"/nestjs_intro/"}}}]}}}
+{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"nestjs","categories":"nestjs ts"},"fields":{"slug":"/nestjs_intro/"}}}]}}}

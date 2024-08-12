@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkminsoku_github_io=self.webpackChunkminsoku_github_io||[]).push([[883],{4393:function(e,t,n){n.r(t);var u=n(7294),l=n(7743),i=n(6962);t.default=function(){return u.createElement(l.Z,null,u.createElement(i.Z,{title:"minlog"}),u.createElement("h1",null,"404: Not Found"),u.createElement("p",null,"40404040404"))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-f5cba8b061c6cd76d40a.js.map
